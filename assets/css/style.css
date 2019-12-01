@@ -4,7 +4,14 @@ a{
 
 body{
     background-image: url("../images/trees.png");
-    margin: 0; /* Fixes there being space between the top of the header box and the top of the viewport */
+
+    /* Fixes there being space between the top of the header box and the top of the viewport */
+    margin: 0; 
+}
+
+#contact-me{
+    padding: 0px 0px 20px 20px;
+
 }
 
 #content{
@@ -20,26 +27,68 @@ body{
 footer{
     width: 100%;
     height: auto;
-    bottom: 0; /* Removes space from bottom of footer and bottom of viewport */
+
+    /* Removes space from bottom of footer and bottom of viewport */
+    bottom: 0; 
+
     background-color: #666666;
     border-top: 8px solid #4aaaa5;
     text-align: center;
     color: #ffffff;
-    position: fixed; /* Keeps footer 'stickied' to the bottom of the page */
+
+    /* Keeps footer 'stickied' to the bottom of the page */
+    position: fixed; 
 }
+
+/* BEGIN PHOTO GRID */
+.photo-grid-container{
+    position: relative;
+    display: grid;
+    grid-template-columns: 300px 300px;
+    grid-template-rows: 225px 225px 225px;
+    column-gap: 0px;
+}
+
+.photo-grid-img{
+    position: relative;
+    width: 50%;
+    height: auto;
+}
+
+.photo-text p{
+    position: absolute;
+    text-align: center;
+    width: 210px;
+    height: auto;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    left: 40px;
+    top: 130px;
+}
+
+.photo-grid-img img{
+    margin-left: 0px;
+}
+
+/* END PHOTO GRID */
 
 h1{
     font-family: 'Georgia', Times, 'Times New Roman', serif;
 }
 
 header{
+
+    /* Flex is now my savior and I won't ever build anything ever again that doesn't use it as lines 29-34 fix the spacing bug */
     display: flex;
 	flex-direction: row;
-	flex-wrap: nowrap;                  /* Flex is now my savior and I won't ever build anything ever again that doesn't use it as lines 29-34 fix the spacing bug */
+	flex-wrap: nowrap;
 	justify-content: space-between;
 	align-items: center;
-	align-content: center;
-    background-color: #ffffff; /*color of box behind the entire header content */
+    align-content: center;
+    
+    /*color of box behind the entire header content */
+    background-color: #ffffff; 
+
     position: relative;
     border-bottom: 1px solid #cccccc;
 }
@@ -56,8 +105,16 @@ header h1{
     height: auto;
     background-color: #4aaaa5;
     color: #ffffff;
-    margin: 0; /* Keeps top of header box from creating space between itself and the top of the viewport */
-    margin-left:25%; /* Aligns text with the left side of the content box */
+
+    /* Keeps top of header box from creating space between itself and the top of the viewport */
+    margin: 0; 
+
+    /* Aligns text with the left side of the content box */
+    margin-left:25%; 
+}
+
+header a{
+    text-decoration: none;
 }
 
 img{
@@ -86,5 +143,7 @@ section p{
     line-height: 1.5;
     font-size: 20px;
     padding: 0px 20px 20px 20px;
-    overflow: auto; /*set a rule for overflowing text within the section box for p tagged text */
+
+    /*set a rule for overflowing text within the section box for p tagged text */
+    overflow: auto; 
 }
