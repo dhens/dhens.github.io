@@ -1,3 +1,3 @@
 # dhens.github.io
 
-This project is to use our CSS and HTML skills to create a real bio page that we deploy!
+This is the "Production" repo for Unit-01-HTML-CSS-and-Git-Homework-Portfolio and gets updates to it when the dev repo is stable enough to be made public.
