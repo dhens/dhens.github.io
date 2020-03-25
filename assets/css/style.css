@@ -1,6 +1,11 @@
 * {
     box-sizing: border-box;
-    font-family: 'Francois One', sans-serif;
+}
+
+.card img {
+    height: 190px;
+    background-size: cover;
+    overflow: hidden;
 }
 
 .container.top-bar {
@@ -9,5 +14,10 @@
 
 /* Navbar text elements */
 .col-lg-4 h6 {
+    font-family: 'Francois One', sans-serif;
     font-size: xxx-large;
+}
+
+img {
+    overflow: hidden;
 }
