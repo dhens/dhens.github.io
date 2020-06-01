@@ -6,15 +6,29 @@
 }
 
 .about-me p {
-    border-left: 1px solid black;
+
 }
 
-.about-me h3{
-    padding: 0px 45px 0px 45px;
+.about-me h3 {
 }
+
 .about-me img{
     object-fit: cover;
     border-radius: 50%;
     width: 200px;
     height: 200px;
 }
+
+.vert-divider {
+    border-left: 2px solid black;
+}
+
+@media only screen and (max-width: 995px) {
+    .about-me {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 50px 25px 50px 25px;
+    }
+}    

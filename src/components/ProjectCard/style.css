@@ -1,4 +1,9 @@
+.card {
+    margin-top: 50px;
+}
+
 .card img {
+    align-self: center;
     height: 190px;
     max-width: 350px;
 }
@@ -27,7 +32,6 @@ p {
     flex-direction: row;
 }
 .project-links button {
-    display: flex;
     margin: 0 auto;
     font-size: larger;
     border: none;
@@ -35,3 +39,9 @@ p {
     border: 3px solid black;
     padding: 5px;
 }
+
+@media only screen and (max-width: 995px) {
+    .project-links button {
+        margin-top: 20px;
+    }
+}    
