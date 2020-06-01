@@ -1,0 +1,7 @@
+.contact-me button {
+    font-size: x-large;
+    width: 300px;
+    border: none;
+    border: 3px solid black;
+    border-radius: 8px;
+}
