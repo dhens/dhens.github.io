@@ -1,9 +1,7 @@
 .about-me {
     display: flex;
-    flex-wrap: wrap;
     flex-direction: row;
-    justify-content: center;
-    align-content: center;
+    justify-content: space-evenly;
     padding-top: 25px;
 }
 
@@ -28,7 +26,13 @@
 }
 
 .about-me .col2 {
+    margin-top: 25px;
+    text-align: center;
     align-self: center; /* Vertically centers bio text */
+}
+
+.fas, .fab {
+    color: black; /* Make social icons black */
 }
 
 .socials {
@@ -43,6 +47,12 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+
+    .about-me .col0 {
+        display: flex;
+        justify-content: center;
+        
     }
 
     ul.socials {

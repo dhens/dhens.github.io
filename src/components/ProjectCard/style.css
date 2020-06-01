@@ -43,11 +43,9 @@ p {
 }
 .project-links button {
     width: 125px;
-    overflow: visible;
     display: block;
     margin: 0 auto;
     font-size: large;
-    border: none;
     border-radius: 8px;
     border: 3px solid black;
     padding: 5px;

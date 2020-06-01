@@ -28,6 +28,11 @@ function AboutMe() {
                                     <i className="fas fa-file-pdf"></i>
                                 </a>
                             </li>
+                            <li className="social-item">
+                                <a href="mailto:dawsonhensel@gmail.com">
+                                    <i className="fas fa-envelope"></i>
+                                </a>
+                            </li>
                         </ul>
                     </div>
                     <div className="col-lg-4 col2">
