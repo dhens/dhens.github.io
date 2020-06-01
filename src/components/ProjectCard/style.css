@@ -1,5 +1,6 @@
 .card {
     margin-top: 50px;
+    position: relative;
 }
 
 .card-details {
@@ -39,7 +40,9 @@ p {
 .project-links {
     display: flex;
     flex-direction: row;
-    bottom: 0;
+    bottom: 20px;
+    padding: 25px 15px 0 15px;
+    position: absolute;
 }
 .project-links button {
     width: 125px;
@@ -53,6 +56,9 @@ p {
 }
 
 @media only screen and (max-width: 1200px) {
+    .project-links {
+        position: relative;
+    }
     .project-links button {
         width: 80%;
         font-size: x-large;

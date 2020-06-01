@@ -37,7 +37,7 @@ function AboutMe() {
                     </div>
                     <div className="col-lg-4 col2">
                         <h5>
-                            I create Full Stack websites
+                            I create Full Stack websites using React, Javascript, CSS, and Node. Email me and let's work together!
                         </h5>
                     </div>
                 </div>

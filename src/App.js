@@ -7,6 +7,7 @@ import rambler from './assets/rambler.png';
 import par from './assets/pareporter.png';
 import ltunes from './assets/ltunes.png'
 import AboutMe from './components/AboutMe';
+import Bottom from './components/Bottom';
 
 const makeListItems = array => {
   return array.map((item) => 
@@ -67,7 +68,18 @@ function App() {
           githubURL="https://github.com/KindraKinney/Local-Tunes"
           siteURL="https://kindrakinney.github.io/Local-Tunes/"
         />
+        <ProjectCard
+          title="Local Tunes"
+          thumbnailPath={ltunes}
+          thumbnailAlt="LocalTunes Image"
+          text0="A MusixMatch API-powered app that finds the current top songs in a user specified country."
+          text1=""
+          features={makeListItems(ltunesFeatures)}
+          githubURL="https://github.com/KindraKinney/Local-Tunes"
+          siteURL="https://kindrakinney.github.io/Local-Tunes/"
+        />
       </CardWrapper>
+      <Bottom />
     </div>
   );
 }

@@ -1,11 +1,13 @@
 .about-me {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
     padding-top: 25px;
+    margin: 0 auto;
 }
 
 .about-me .col0 img{
+    display: flex;
+    margin: 0 auto;
     object-fit: cover;
     border-radius: 50%;
     width: 200px;
