@@ -1,11 +1,15 @@
 .card img {
-    max-height: 190px;
+    height: 190px;
     max-width: 350px;
 }
 
 .card-title {
     font-size: x-large;
     font-weight: bold;
+}
+
+.fas, .fab {
+    margin-right: 5px;
 }
 
 li {
@@ -21,14 +25,13 @@ p {
 .project-links {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    position: relative;
 }
 .project-links button {
-    display: grid;
+    display: flex;
+    margin: 0 auto;
     font-size: larger;
     border: none;
-    padding: 5px;
-    border: 3px solid black;
     border-radius: 8px;
+    border: 3px solid black;
+    padding: 5px;
 }

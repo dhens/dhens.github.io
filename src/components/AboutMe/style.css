@@ -1,0 +1,20 @@
+.about-me {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 25px 50px 25px;
+}
+
+.about-me p {
+    border-left: 1px solid black;
+}
+
+.about-me h3{
+    padding: 0px 45px 0px 45px;
+}
+.about-me img{
+    object-fit: cover;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}

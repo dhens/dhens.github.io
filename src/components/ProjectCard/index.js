@@ -19,13 +19,16 @@ function ProjectCard(props) {
                     <ul>
                         {props.features}
                     </ul>
-                    <div className="project-links text-center">
+                    <div className="row project-links text-center">
+                        <div className="col-lg-6">
                         <a href={props.githubURL}>
-                            <button>
-                                <i className="fab fa-github"></i>
-                                    Repository
-                            </button>
-                        </a>
+                        <button>
+                            <i className="fab fa-github"></i>
+                                Repository
+                        </button>
+                    </a>
+                        </div>
+                        <div className="col-lg-6">
                         <a href={props.siteURL}>
                             <button>
                                 <i className="fas fa-server"></i>
@@ -33,7 +36,7 @@ function ProjectCard(props) {
                             </button>
                         </a>
                     </div>
-                    <p className="card-text"><small className="text-muted"></small></p>
+                    </div>
                 </div>
         </div>
     )

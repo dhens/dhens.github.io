@@ -6,6 +6,7 @@ import Navbar from './components/Navbar';
 import rambler from './assets/rambler.png';
 import par from './assets/pareporter.png';
 import ltunes from './assets/ltunes.png'
+import AboutMe from './components/AboutMe';
 
 const makeListItems = array => {
   return array.map((item) => 
@@ -35,6 +36,7 @@ function App() {
   return (
     <div>
       <Navbar />
+      <AboutMe />
       <CardWrapper>
         <ProjectCard
           title="Rambler Hiking App"
