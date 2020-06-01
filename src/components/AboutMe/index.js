@@ -5,15 +5,40 @@ import headshot from '../../assets/11623868.jfif'
 function AboutMe() {
     return (
         <div className="container">
-            <div className="row">
-                <div className="col-lg-12 about-me">
-                    <img src={headshot} alt="Dawson" />
-                    <h3>Dawson Hensel</h3>
-                    <div className="vert-divider"></div>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum </p>
+            <div className="about-me">
+                <div className="row">
+                    <div className="col-lg-4 col0">
+                        <img src={headshot} alt="Dawson" />
+                    </div>
+                    <div className="col-lg-4 col1">
+                        <h3>Dawson Hensel</h3>
+                        <ul className="socials">
+                            <li className="social-item">
+                                <a href="https://www.linkedin.com/in/dawson-hensel-2aba54195/">
+                                    <i className="fab fa-linkedin"></i>
+                                </a>
+                            </li>
+                            <li className="social-item">
+                                <a href="https://github.com/dhens">
+                                    <i className="fab fa-github"></i>
+                                </a>
+                            </li>
+                            <li className="social-item">
+                                <a href="https://docs.google.com/document/d/1Vr8dhKNO_onxLaEssFRl6f9meRwRlGHnEC290LKT81c/edit?usp=sharing">
+                                    <i className="fas fa-file-pdf"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div className="col-lg-4 col2">
+                        <h5>
+                            I create Full Stack websites
+                        </h5>
+                    </div>
                 </div>
             </div>
         </div>
+
     )
 }
 

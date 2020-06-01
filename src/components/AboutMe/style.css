@@ -1,34 +1,52 @@
 .about-me {
     display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
     justify-content: center;
-    align-items: center;
-    padding: 50px 25px 50px 25px;
+    align-content: center;
+    padding-top: 25px;
 }
 
-.about-me p {
-
-}
-
-.about-me h3 {
-}
-
-.about-me img{
+.about-me .col0 img{
     object-fit: cover;
     border-radius: 50%;
     width: 200px;
     height: 200px;
 }
 
-.vert-divider {
-    border-left: 2px solid black;
+.about-me .col1 {
+    align-self: center; /* Vertically centers social icons */
 }
 
-@media only screen and (max-width: 995px) {
+.about-me .col1 h3 {
+    text-align: center; /* Centers Dawson Hensel Text  */
+}
+
+.about-me .col1 li {
+    display: flex;
+    margin: 0 auto;
+}
+
+.about-me .col2 {
+    align-self: center; /* Vertically centers bio text */
+}
+
+.socials {
+    display: flex;
+    margin: 0 auto;
+    padding:  0;
+    font-size: 36px; /* Sets size of socials icons */
+}
+
+@media only screen and (max-width: 1200px) {
     .about-me {
-        display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding: 50px 25px 50px 25px;
+    }
+
+    ul.socials {
+        justify-content: space-between;
+
     }
 }    

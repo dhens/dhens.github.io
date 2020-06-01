@@ -42,9 +42,7 @@ function App() {
           title="Rambler Hiking App"
           thumbnailPath={rambler}
           thumbnailAlt="Rambler Image"
-          text0="Search and Save hikes from anywhere in the United States."
-          text1="Add hikes you want to go on to your Bucket List, and view your past accomplishments by adding completed hikes to your Log!"
-          text2="Your Log will give you metrics to stack your hikes against eachother in elevation and distance."
+          text0="Search and save hikes from anywhere in the United States."
           features={makeListItems(ramblerFeatures)}
           githubURL="https://github.com/dhens/Rambler"
           siteURL="https://gorambler.herokuapp.com"
@@ -55,7 +53,6 @@ function App() {
           thumbnailAlt="Paranormal Activity Reporter Image"
           text0="A Full-Stack forum with user sign-up and authentication, categorized posting sections,
           and web sessions."
-          text1="View and Post from 8 seperate conspiracy topics including chem trails, bigfoot, and UFO sightings."
           features={makeListItems(parFeatures)}
           githubURL="https://github.com/dhens/Paranormal-Activity-Reporter"
           siteURL="https://intense-beach-33729.herokuapp.com/"

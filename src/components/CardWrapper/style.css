@@ -4,7 +4,7 @@
     margin: 0 auto;
 }
 
-@media only screen and (max-width: 995px) {
+@media only screen and (max-width: 1200px) {
     .card-deck {
         flex-direction: column;
     }

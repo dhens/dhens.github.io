@@ -2,24 +2,33 @@
     margin-top: 50px;
 }
 
+.card-details {
+    padding-bottom: 15px;
+}
+
 .card img {
     align-self: center;
     height: 190px;
     max-width: 350px;
 }
 
+.card li {
+    margin-bottom: 10px;
+
+}
+
+.card ul {
+    margin-bottom: 25px;
+}
+
 .card-title {
     font-size: x-large;
     font-weight: bold;
+    padding-bottom: 20px;
 }
 
 .fas, .fab {
     margin-right: 5px;
-}
-
-li {
-    margin-bottom: 10px;
-
 }
 
 p {
@@ -30,18 +39,25 @@ p {
 .project-links {
     display: flex;
     flex-direction: row;
+    bottom: 0;
 }
 .project-links button {
+    width: 125px;
+    overflow: visible;
+    display: block;
     margin: 0 auto;
-    font-size: larger;
+    font-size: large;
     border: none;
     border-radius: 8px;
     border: 3px solid black;
     padding: 5px;
+    
 }
 
-@media only screen and (max-width: 995px) {
+@media only screen and (max-width: 1200px) {
     .project-links button {
-        margin-top: 20px;
+        width: 80%;
+        font-size: x-large;
+        margin-bottom: 20px;
     }
 }    
