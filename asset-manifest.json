@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.cb6eaed2.chunk.css",
+    "main.js": "/static/js/main.d509bbda.chunk.js",
+    "main.js.map": "/static/js/main.d509bbda.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.265df856.js",
+    "runtime-main.js.map": "/static/js/runtime-main.265df856.js.map",
+    "static/js/2.f346c7af.chunk.js": "/static/js/2.f346c7af.chunk.js",
+    "static/js/2.f346c7af.chunk.js.map": "/static/js/2.f346c7af.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.6b47c9cbc2c62eea95e55b8b37568741.js": "/precache-manifest.6b47c9cbc2c62eea95e55b8b37568741.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.cb6eaed2.chunk.css.map": "/static/css/main.cb6eaed2.chunk.css.map",
+    "static/js/2.f346c7af.chunk.js.LICENSE.txt": "/static/js/2.f346c7af.chunk.js.LICENSE.txt",
+    "static/media/ltunes.png": "/static/media/ltunes.90452549.png",
+    "static/media/pareporter.png": "/static/media/pareporter.1c829816.png",
+    "static/media/rambler.png": "/static/media/rambler.ba121151.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.265df856.js",
+    "static/js/2.f346c7af.chunk.js",
+    "static/css/main.cb6eaed2.chunk.css",
+    "static/js/main.d509bbda.chunk.js"
+  ]
+}
