@@ -29,7 +29,7 @@ const AboutMe = () => {
                                 </a>
                             </li>
                             <li className="social-item">
-                                <a href="mailto:dawsonhensel@gmail.com">
+                                <a href="mailto:dawsonhensel@gmail.com?subject=Business%20Inquiry%20from%20Your%20Portfolio">
                                     <i className="fas fa-envelope"></i>
                                 </a>
                             </li>
