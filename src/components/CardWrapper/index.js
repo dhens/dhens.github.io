@@ -3,7 +3,7 @@ import './style.css';
 
 function CardWrapper(props) {
     return (
-        <div className="container portfolio">
+        <div id="projects" className="container portfolio">
             <div className="card-deck">
                 {props.children}
             </div>

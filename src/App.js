@@ -18,7 +18,7 @@ const makeListItems = array => {
 const ramblerFeatures = [
   'Powered by React',
   'Minimalist and intuitive user interface',
-  'Simple OAuth Login & Registration using Google Sign-In', 
+  'User-friendly login & registration using Google Sign-In', 
 ];
 
 const parFeatures = [

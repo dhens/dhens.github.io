@@ -5,7 +5,7 @@ import headshot from '../../assets/11623868.jfif'
 function AboutMe() {
     return (
         <div className="container">
-            <div className="about-me">
+            <div id="about" className="about-me">
                 <div className="row">
                     <div className="col-lg-4 col0">
                         <img src={headshot} alt="Dawson" />
