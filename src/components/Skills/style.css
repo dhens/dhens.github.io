@@ -1,7 +1,15 @@
-.skills {
+.frontend, .backend {
+    margin-bottom: 25px;
 }
 
 .skills-title{
+    margin-bottom: 50px;
+}
+
+.skill-icon {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 25px;
     margin-bottom: 50px;
 }
 
@@ -11,9 +19,16 @@
     grid-template-columns: 1fr 1fr;
 }
 
-.skill-icon {
-    display: grid;
-    justify-items: center;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    row-gap: 20px;
+.skill-icon img {
+    width: 64px;
+    height: 64px;
+}
+
+@media only screen and (max-width: 1200px) {
+    .skill-icon {
+        justify-items: center;
+    }
+    .skill-icon-container {
+        grid-template-columns: 1fr;
+    }
 }
