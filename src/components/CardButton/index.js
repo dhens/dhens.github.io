@@ -1,7 +1,7 @@
 import React from 'react';
 import './style.css';
 
-function CardButton(props) {
+const CardButton = props => {
     return (
         <div className="project-links text-center">
             <a href={props.githubURL}>

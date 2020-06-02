@@ -2,7 +2,7 @@ import React from 'react';
 import './style.css'
 import headshot from '../../assets/11623868.jfif'
 
-function AboutMe() {
+const AboutMe = () => {
     return (
         <div className="container">
             <div id="about" className="about-me">
@@ -37,7 +37,7 @@ function AboutMe() {
                     </div>
                     <div className="col-lg-4 col2">
                         <h5>
-                            I create Full Stack websites using React, Javascript, CSS, and Node. Email me and let's work together!
+                            I create Full Stack websites using MERN stack, MySQL, Javascript, jQuery, and Bootstrap. Email me and let's work together!
                         </h5>
                     </div>
                 </div>

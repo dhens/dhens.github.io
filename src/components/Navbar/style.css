@@ -1,3 +1,22 @@
 body { 
     padding-top: 50px;
 }
+
+.navbar .container {
+    padding: 0;
+    background-color: #3d3d3d !important;
+}
+
+.bg-dark, .col-lg-12 {
+    background-color: #3d3d3d !important;
+}
+
+nav {
+    opacity: 98%;
+}
+
+nav a {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: 200;
+}

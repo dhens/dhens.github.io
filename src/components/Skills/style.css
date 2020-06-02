@@ -1,0 +1,15 @@
+.skills-title{
+    margin-bottom: 50px;
+}
+
+.skill-icon-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.skill-icon {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
