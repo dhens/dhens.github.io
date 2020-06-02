@@ -37,7 +37,7 @@ const AboutMe = () => {
                     </div>
                     <div className="col-lg-4 col2">
                         <h5>
-                            I create Full Stack websites using MERN stack, MySQL, Javascript, jQuery, and Bootstrap. Email me and let's work together!
+                            I create Full Stack websites using MERN, MySQL, Javascript, jQuery, and Bootstrap. Email me and let's work together!
                         </h5>
                     </div>
                 </div>

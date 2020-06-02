@@ -1,15 +1,19 @@
+.skills {
+}
+
 .skills-title{
     margin-bottom: 50px;
 }
 
 .skill-icon-container {
     display: grid;
+    column-gap: 100px;
     grid-template-columns: 1fr 1fr;
-
 }
 
 .skill-icon {
     display: grid;
     justify-items: center;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    row-gap: 20px;
 }

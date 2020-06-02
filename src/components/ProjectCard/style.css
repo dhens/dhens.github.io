@@ -14,7 +14,7 @@
 }
 
 .card ul {
-    margin-bottom: 25px;
+    margin-bottom: 75px;
 }
 
 .card-title {
@@ -30,8 +30,8 @@
 .project-links { /* Keeps repo and site buttons glued to bottom of card */
     display: flex;
     flex-direction: row;
+    margin: 0 auto;
     bottom: 20px;
-    padding: 25px 15px 0 15px;
     position: absolute;
 }
 
@@ -43,7 +43,6 @@
     border-radius: 8px;
     border: 3px solid black;
     padding: 5px;
-    
 }
 
 @media only screen and (max-width: 1200px) {

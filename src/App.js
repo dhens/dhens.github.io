@@ -23,9 +23,9 @@ const ramblerFeatures = [
 ];
 
 const parFeatures = [
-  'User Sign-Up and Web Sessions using Passport',
-  'Categorized posting sections',
-  'Moon phase tracker'
+  'User registration, login, and sessions using Passport.js',
+  'Post in 8 different categories such as UFOs, Bigfoot sightings, and more!',
+  'Tap into the moons energy by viewing the current phase on the homepage.'
 ]
 
 const ltunesFeatures = [
@@ -44,7 +44,9 @@ const App = () => {
           title="Rambler Hiking App"
           thumbnailPath={rambler}
           thumbnailAlt="Rambler Image"
-          text0="Search and save hikes from anywhere in the United States."
+          text0="Search, save, complete, and plan future hikes from anywhere in the United States."
+          text1="Add completed hikes to your Log to
+          compare and contrast the elevation gains and distance; powered by react-vis."
           features={makeListItems(ramblerFeatures)}
           githubURL="https://github.com/dhens/Rambler"
           siteURL="https://gorambler.herokuapp.com"
@@ -53,7 +55,7 @@ const App = () => {
           title="Paranormal Activity Reporter"
           thumbnailPath={par}
           thumbnailAlt="Paranormal Activity Reporter Image"
-          text0="A Full-Stack forum with user sign-up and authentication, categorized posting sections,
+          text0="A Full-Stack forum with user accounts, categorized posting sections,
           and web sessions."
           features={makeListItems(parFeatures)}
           githubURL="https://github.com/dhens/Paranormal-Activity-Reporter"
