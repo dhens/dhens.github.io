@@ -37,6 +37,11 @@
     color: black; /* Make social icons black */
 }
 
+.socials .fas:hover, .socials .fab:hover {
+    transition: all .1s ease-in-out;
+    transform: scale(1.3); 
+}
+
 .socials {
     display: flex;
     margin: 0 auto;

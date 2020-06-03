@@ -71,6 +71,37 @@ const App = () => {
           githubURL="https://github.com/KindraKinney/Local-Tunes"
           siteURL="https://kindrakinney.github.io/Local-Tunes/"
         />
+        <ProjectCard
+          title="Paranormal Activity Reporter"
+          thumbnailPath={par}
+          thumbnailAlt="Paranormal Activity Reporter Image"
+          text0="A Full-Stack forum with user accounts, categorized posting sections,
+          and web sessions."
+          features={makeListItems(parFeatures)}
+          githubURL="https://github.com/dhens/Paranormal-Activity-Reporter"
+          siteURL="https://intense-beach-33729.herokuapp.com/"
+        />
+        <ProjectCard
+          title="Local Tunes"
+          thumbnailPath={ltunes}
+          thumbnailAlt="LocalTunes Image"
+          text0="A MusixMatch API-powered app that finds the current top songs in a user specified country."
+          text1=""
+          features={makeListItems(ltunesFeatures)}
+          githubURL="https://github.com/KindraKinney/Local-Tunes"
+          siteURL="https://kindrakinney.github.io/Local-Tunes/"
+        />
+        <ProjectCard
+          title="Rambler Hiking App"
+          thumbnailPath={rambler}
+          thumbnailAlt="Rambler Image"
+          text0="Search, save, complete, and plan future hikes from anywhere in the United States."
+          text1="Add completed hikes to your Log to
+          compare and contrast the elevation gains and distance; powered by react-vis."
+          features={makeListItems(ramblerFeatures)}
+          githubURL="https://github.com/dhens/Rambler"
+          siteURL="https://gorambler.herokuapp.com"
+        />
       </CardWrapper>
       <Skills />
       <Bottom />
