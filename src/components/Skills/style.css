@@ -9,14 +9,14 @@
 .skill-icon {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    column-gap: 25px;
     margin-bottom: 50px;
+    column-gap: 0px;
+    justify-items: center;
 }
 
 .skill-icon-container {
     display: grid;
-    column-gap: 100px;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
 }
 
 .skill-icon img {
