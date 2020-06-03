@@ -30,7 +30,7 @@ const AboutMe = () => {
                             <li className="social-item">
                                 <div title="Resume">
                                     <a href="https://docs.google.com/document/d/1Vr8dhKNO_onxLaEssFRl6f9meRwRlGHnEC290LKT81c/edit?usp=sharing">
-                                        <i class="fas fa-file-alt"></i>
+                                        <i className="fas fa-file-alt"></i>
                                     </a>
                                 </div>
                             </li>

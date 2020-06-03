@@ -10,6 +10,5 @@
 @media only screen and (max-width: 1200px) {
     .card-deck {
         grid-template-columns: 1fr;
-
     }
 }
