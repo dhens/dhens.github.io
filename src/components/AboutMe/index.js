@@ -21,19 +21,25 @@ const AboutMe = () => {
                                 </div>
                             </li>
                             <li className="social-item">
-                                <a href="https://github.com/dhens">
-                                    <i className="fab fa-github"></i>
-                                </a>
+                                <div title="GitHub">
+                                    <a href="https://github.com/dhens">
+                                        <i className="fab fa-github"></i>
+                                    </a>
+                                </div>
                             </li>
                             <li className="social-item">
-                                <a href="https://docs.google.com/document/d/1Vr8dhKNO_onxLaEssFRl6f9meRwRlGHnEC290LKT81c/edit?usp=sharing">
-                                    <i class="fas fa-file-alt"></i>
-                                </a>
+                                <div title="Resume">
+                                    <a href="https://docs.google.com/document/d/1Vr8dhKNO_onxLaEssFRl6f9meRwRlGHnEC290LKT81c/edit?usp=sharing">
+                                        <i class="fas fa-file-alt"></i>
+                                    </a>
+                                </div>
                             </li>
                             <li className="social-item">
-                                <a href="mailto:dawsonhensel@gmail.com?subject=Business%20Inquiry%20from%20Your%20Portfolio">
-                                    <i className="fas fa-envelope"></i>
-                                </a>
+                                <div title="Email">
+                                    <a href="mailto:dawsonhensel@gmail.com?subject=Business%20Inquiry%20from%20Your%20Portfolio">
+                                        <i className="fas fa-envelope"></i>
+                                    </a>
+                                </div>
                             </li>
                         </ul>
                     </div>
