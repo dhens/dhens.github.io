@@ -14,9 +14,11 @@ const AboutMe = () => {
                         <h3>Dawson Hensel</h3>
                         <ul className="socials">
                             <li className="social-item">
-                                <a href="https://www.linkedin.com/in/dawson-hensel-2aba54195/">
-                                    <i className="fab fa-linkedin"></i>
-                                </a>
+                                <div title="LinkedIn">
+                                    <a href="https://www.linkedin.com/in/dawson-hensel-2aba54195/">
+                                        <i className="fab fa-linkedin"></i>
+                                    </a>
+                                </div>
                             </li>
                             <li className="social-item">
                                 <a href="https://github.com/dhens">
@@ -25,7 +27,7 @@ const AboutMe = () => {
                             </li>
                             <li className="social-item">
                                 <a href="https://docs.google.com/document/d/1Vr8dhKNO_onxLaEssFRl6f9meRwRlGHnEC290LKT81c/edit?usp=sharing">
-                                    <i className="fas fa-file-pdf"></i>
+                                    <i class="fas fa-file-alt"></i>
                                 </a>
                             </li>
                             <li className="social-item">
@@ -37,7 +39,7 @@ const AboutMe = () => {
                     </div>
                     <div className="col-lg-4 col2">
                         <h5>
-                            I create Full Stack websites using MERN, MySQL, Javascript, jQuery, and Bootstrap. Email me and let's work together!
+                            I create Full Stack web applications using MERN, MySQL, Javascript, jQuery, and Bootstrap. Email me and let's work together!
                         </h5>
                     </div>
                 </div>
