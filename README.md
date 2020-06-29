@@ -8,3 +8,5 @@ Developed from the ground-up in React to improve my skills as well as make the c
 * Skills & technologies in front-end and backend 
 
 Come visit at: https://dhens.github.io
+
+![my portfolio site](portfolio.PNG)
